@@ -1,0 +1,31 @@
+<div class="container">
+
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle dropbtn" data-toggle="dropdown" >
+    my dropdown</button>
+
+  <div class="dropdown-menu dropdown-menu-right dropdwn" >
+    <a
+      class="dropdown-item p-1 small "
+     *ngFor="let x of mylist"
+      >
+      <span class="mr-2"
+        ><small style="color: gray;"
+          >{{x}}</small></span
+      >
+
+    </a>
+    <li class="divider"></li>
+    <a
+    class="dropdown-item p-1 small "
+
+    >
+    <span class="mr-2"
+      ><small style="color: gray;"
+        >show more</small></span
+    >
+
+  </a>
+  </div>
+</div>
+</div>
